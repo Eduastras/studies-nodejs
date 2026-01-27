@@ -9,7 +9,7 @@ export function routeHandler(request, response) {
         return rota.method === request.method && rota.path === request.url
     })
 
-    // fizemos uma condicional para ver se tem a rota, ou seja se é um thrusty, pq se a condição do .find() não for satisfeita retornará um undefined, e que por sua vez é falhsty, então dará como false no if.
+    // fizemos uma condicional para ver se tem a rota, ou seja se é um truthy, pq se a condição do .find() não for satisfeita retornará um undefined, e que por sua vez é falsy, então dará como false no if.
     if (route) {
         // A gente chama o método do route passando pra ele o request e o response, que a gente recebe na function.
         // Também tem um return, então isso para a function e manda pra function routeHandler o valor do método route.controller().
