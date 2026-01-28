@@ -19,7 +19,7 @@ export const routes = [
     },
     {
         method: "DELETE",        
-        // :id é uma convenção
+        // :id é só uma convenção, para ser criado um grupo no RegEx.
         path: "/products/:id",
         controller: (request, response) => {
             // Retorna o encerramento da resposta, com a mensagem de que o produto do ID da propriedade que criamos no request la no routeHandler foi deletado.
