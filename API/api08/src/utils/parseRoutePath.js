@@ -5,7 +5,7 @@ export function parseRouthPath(path) {
     console.log(params)
     
     // Aqui criamos uma nova expressão regular baseado no params
-    // Criamos uma nova expressão regular que além de pegar params, criamos um novo grupo com o nome query, que pega tudo quer vier depois de ?
+    // Criamos uma nova expressão regular que além de pegar params, criamos um novo grupo com o nome query, que pega tudo quer vier depois de ?.
     const pathRegex = new RegExp(`${params}(?<query>\\?(.*))?$`)    
     console.log(pathRegex)
 
