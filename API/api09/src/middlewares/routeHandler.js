@@ -13,7 +13,7 @@ export function routeHandler(request, response) {
         const routeParams = request.url.match(route.path)
         console.log(routeParams)
 
-        // Estamos desestruturando a propriedade query do routeParams.group.
+        // Estamos desestruturando a propriedade query do routeParams.group
         const {query, ...params } = routeParams.groups
         console.log(query)
         
