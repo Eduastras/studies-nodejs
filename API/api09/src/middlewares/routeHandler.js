@@ -22,6 +22,7 @@ export function routeHandler(request, response) {
         // aqui criamos no request a propriedade query.
         // utilizamos o operador ternario, pra saber se tem algo em query, se tiver vai chamar a função passando query, caso nao tenha vai receber um objeto vazio.
         request.query = query ? extractQueryParams(query) : {}
+        console.log(request.query)
 
         return route.controller(request, response)
     }
