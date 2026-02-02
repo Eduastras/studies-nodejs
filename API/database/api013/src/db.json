@@ -1,1 +1,10 @@
-{"products":[{"name":"Monitor","price":1300},{"name":"Monitor","price":1300},{"name":"PC Gamer","price":6500},{"name":"PC Gamer","price":6500},{"name":"Led","price":80},{"name":"Led","price":80}]}
+{
+  "products": [
+    { "name": "Monitor", "price": 1300 },
+    { "name": "Monitor", "price": 1300 },
+    { "name": "PC Gamer", "price": 6500 },
+    { "name": "PC Gamer", "price": 6500 },
+    { "name": "Led", "price": 80 },
+    { "name": "Led", "price": 80 }
+  ]
+}
