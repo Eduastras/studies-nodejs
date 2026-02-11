@@ -1,0 +1,14 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Criando API REST com Node.js",
+  "main": "src/server.js",
+  "scripts": {},
+  "author": "Eduardo de Souza",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  }
+}
